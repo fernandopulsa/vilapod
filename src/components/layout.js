@@ -4,6 +4,8 @@ import React from "react"
 import Footer from "./Footer"
 import Header from "./Header"
 
+import "../style/main.scss"
+
 const Layout = ({ children }) => (
   <div>
     <Header />

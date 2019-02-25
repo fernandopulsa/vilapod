@@ -15,7 +15,11 @@ class BlogIndex extends React.Component {
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <section>this is a section</section>
+        <section>
+          <div className="layout">
+            <p>lol</p>
+          </div>
+        </section>
       </Layout>
     )
   }
