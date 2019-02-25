@@ -1,0 +1,19 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700");
+
+:root {
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
