@@ -1,10 +1,17 @@
 import React from "react"
-// import { Link } from "gatsby"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
+const Nav = props => (
+  <nav>
+    <AnchorLink href="#events">Events</AnchorLink>
+    <AnchorLink href="#about">About</AnchorLink>
+  </nav>
+)
 const Header = props => (
   <header>
+    {/* <Nav /> */}
     <div className="content_wrapper layout">
-      <p>this is a header</p>
+      <p>Vilapod</p>
     </div>
   </header>
 )

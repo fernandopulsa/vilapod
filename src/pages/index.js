@@ -2,7 +2,9 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+// import SEO from "../components/seo"
+import AboutBlock from "../components/About"
+import EventsBlock from "../components/Events"
 
 class BlogIndex extends React.Component {
   render() {
@@ -11,15 +13,12 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
+        {/* <SEO
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-        />
-        <section>
-          <div className="layout">
-            <p>lol</p>
-          </div>
-        </section>
+        /> */}
+        <EventsBlock />
+        <AboutBlock />
       </Layout>
     )
   }

@@ -4,10 +4,10 @@ import React from "react"
 const Footer = props => (
   <footer>
     <p className="layout">
-      Created with <span>❤</span> by{" "}
+      {/* Created with <span>❤</span> by{" "}
       <a href="http://fernandopulsa.com" target="blank">
         Fernando Pulsa
-      </a>
+      </a> */}
     </p>
   </footer>
 )
