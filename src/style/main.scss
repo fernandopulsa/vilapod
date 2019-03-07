@@ -4,6 +4,8 @@
 :root {
   font-family: inherit;
   box-sizing: border-box;
+  --corpo-light: #00a281;
+  --corpo-dark: #0077e4;
 }
 
 *,
@@ -13,7 +15,11 @@
 }
 
 .layout {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 16px;
 }
+
+@import "./Footer.scss";
+@import "./Header.scss";
+@import "./Events.scss";
