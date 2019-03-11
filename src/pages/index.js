@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 // import SEO from "../components/seo"
 import AboutBlock from "../components/About"
 import EventsBlock from "../components/Events"
+import ContactoBlock from "../components/Contacto"
 
 class BlogIndex extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class BlogIndex extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         /> */}
         <EventsBlock />
+        <ContactoBlock />
         <AboutBlock />
       </Layout>
     )

@@ -13,7 +13,7 @@ export const EventList = [
     time: "12:00",
     title: "Locución desde la experiencia",
     description:
-      "Múria Goterris, locutora en Radio Vila-real, estará con nosotros para hacer una charla/coloquio sobre el mundo del la voz y como usarla en nuestros programas. De formato pregunta y respuestas nos ayudará con nuestras dudas",
+      "Núria Goterris, locutora en Radio Vila-real, estará con nosotros para hacer una charla/coloquio sobre el mundo del la voz y como usarla en nuestros programas. De formato pregunta y respuestas nos ayudará con nuestras dudas",
   },
   {
     type: "Podcast en directo",

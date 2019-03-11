@@ -4,22 +4,24 @@ import React from "react"
 const AboutBlock = props => (
   <section id="about">
     <div className="content_wrapper layout">
-      <div className="h3">¿Quien organiza?</div>
+      <h3 className="title">¿Quien organiza?</h3>
       <p>
-        Lorem fistrum te va a hasé pupitaa ese hombree amatomaa al ataquerl
-        mamaar torpedo va usté muy cargadoo ese que llega sexuarl amatomaa.
-        qqCaballo blanco caballo negroorl se calle ustée pupita jarl jarl
-        benemeritaar a gramenawer. Te va a hasé pupitaa fistro tiene musho
-        peligro se calle ustée. Amatomaa apetecan qué dise usteer benemeritaar.
-        Condemor la caidita la caidita tiene musho peligro ese pedazo de. Al
-        ataquerl no te digo trigo por no llamarte Rodrigor condemor tiene musho
-        peligro ese que llega caballo blanco caballo negroorl ese pedazo de no
-        te digo trigo por no llamarte Rodrigor llevame al sircoo. Pupita pecador
-        hasta luego Lucas de la pradera ese hombree ahorarr. Por la gloria de mi
-        madre apetecan quietooor amatomaa apetecan pupita a gramenawer. Te va a
-        hasé pupitaa de la pradera a wan va usté muy cargadoo condemor a
-        gramenawer torpedo sexuarl. Condemor qué dise usteer llevame al sircoo
-        de la pradera ese que llega de la pradera ahorarr al ataquerl mamaar.r
+        En 2018, cuatro podcasters culoinquietos decidieron montar unas jornadas
+        de podcasting. El lugar elegido: el Espai Jove de Vila-real. Cuatro
+        podcasts, uno tras otro, lo dieron todo durante toda la tarde.
+      </p>
+      <p>
+        Las VilaPod nacen por iniciativa de los programas de Radio Espai Jove
+        Vila-real “La fiambrera” y “ Si me dices freak, lo veo todo”, con la
+        intención de acercar al público el mundo de la radio amateur. Por una
+        vez, la audiencia puede ver, oir y participar.
+      </p>
+      <p>
+        Tras el gran éxito que tuvieron en su primera edición, vuelven en 2019
+        las VilaPod, las jornadas del podcasting en Vila-real. Más y mejor. Con
+        charlas, talleres y podcasts en directo. No importa si eres oyente o
+        podcaster. Da igual si no sabes que significa la palabra “podcast”. ¡Ven
+        y descúbrelo!
       </p>
     </div>
   </section>
