@@ -8,12 +8,16 @@ const Event = props => (
       {props.data.type} / {props.data.time} h
     </p>
     <h4>{props.data.title}</h4>
-    <p>{props.data.description}</p>
+    {/* <p>{props.data.description}</p> */}
   </div>
 )
 
 const EventsBlock = props => (
   <section id="events">
+    <div className="title_wrapper layout">
+      <h3 className="title">Horario</h3>
+    </div>
+
     <div className="content_wrapper layout">
       {EventList.map((item, i) =>
         item.part === 1 ? <Event data={item} key={i} /> : null
