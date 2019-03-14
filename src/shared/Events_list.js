@@ -35,7 +35,7 @@ export const EventList = [
     type: "Podcast en directo",
     part: 2,
     time: "19:00",
-    title: "- podcast por confirmar -",
+    title: "La Mamarazzi",
     description:
       "loLorem fistrum te va a hasé pupitaa ese hombree amatomaa al ataquerl mamaar torpedo va usté muy cargadoo ese que llega sexuarl amatomaa. Caballo blanco caballo negroorl se calle ustée pupita jarl jarl benemeritaar a gramenawer. Te va a hasé pupitaa fistro tiene musho peligro se calle ustée. Amatomaa apetecan qué dise usteer benemeritaar. Condemor la caidita la caidita tiene musho peligro ese pedazo de.",
   },
