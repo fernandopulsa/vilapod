@@ -14,22 +14,23 @@ const Event = props => (
 
 const EventsBlock = props => (
   <section id="events">
-    <div className="title_wrapper layout">
-      <h3 className="title">Horario</h3>
-    </div>
-
+    <p className="title layout">Mañana</p>
     <div className="content_wrapper layout">
       {EventList.map((item, i) =>
         item.part === 1 ? <Event data={item} key={i} /> : null
       )}
     </div>
 
-    <div className="parada layout">
-      <p>Parada a comer</p>
-    </div>
-    <div className="content_wrapper layout">
+    <p className="title layout">Tarde </p>
+    <div className="content_wrapper layout tarde">
       {EventList.map((item, i) =>
         item.part === 2 ? <Event data={item} key={i} /> : null
+      )}
+    </div>
+    <p className="title layout">Noche</p>
+    <div className="content_wrapper layout noche">
+      {EventList.map((item, i) =>
+        item.part === 3 ? <Event data={item} key={i} /> : null
       )}
     </div>
   </section>
