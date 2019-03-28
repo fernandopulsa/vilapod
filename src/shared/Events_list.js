@@ -18,8 +18,16 @@ export const EventList = [
   {
     type: "Podcast en directo",
     part: 2,
+    time: "16:00",
+    title: "Otakultura DSE",
+    description:
+      "loLorem fistrum te va a hasé pupitaa ese hombree amatomaa al ataquerl mamaar torpedo va usté muy cargadoo ese que llega sexuarl amatomaa. Caballo blanco caballo negroorl se calle ustée pupita jarl jarl benemeritaar a gramenawer. Te va a hasé pupitaa fistro tiene musho peligro se calle ustée. Amatomaa apetecan qué dise usteer benemeritaar. Condemor la caidita la caidita tiene musho peligro ese pedazo de.",
+  },
+  {
+    type: "Podcast en directo",
+    part: 2,
     time: "17:00",
-    title: "Tu voz interior",
+    title: "Transmedia",
     description:
       "loLorem fistrum te va a hasé pupitaa ese hombree amatomaa al ataquerl mamaar torpedo va usté muy cargadoo ese que llega sexuarl amatomaa. Caballo blanco caballo negroorl se calle ustée pupita jarl jarl benemeritaar a gramenawer. Te va a hasé pupitaa fistro tiene musho peligro se calle ustée. Amatomaa apetecan qué dise usteer benemeritaar. Condemor la caidita la caidita tiene musho peligro ese pedazo de.",
   },
@@ -27,7 +35,7 @@ export const EventList = [
     type: "Podcast en directo",
     part: 2,
     time: "18:00",
-    title: "Regugio 101",
+    title: "Refugio 101",
     description:
       "loLorem fistrum te va a hasé pupitaa ese hombree amatomaa al ataquerl mamaar torpedo va usté muy cargadoo ese que llega sexuarl amatomaa. Caballo blanco caballo negroorl se calle ustée pupita jarl jarl benemeritaar a gramenawer. Te va a hasé pupitaa fistro tiene musho peligro se calle ustée. Amatomaa apetecan qué dise usteer benemeritaar. Condemor la caidita la caidita tiene musho peligro ese pedazo de.",
   },
@@ -35,7 +43,15 @@ export const EventList = [
     type: "Podcast en directo",
     part: 2,
     time: "19:00",
-    title: "- por confirmar -",
+    title: "Tu voz interior",
+    description:
+      "loLorem fistrum te va a hasé pupitaa ese hombree amatomaa al ataquerl mamaar torpedo va usté muy cargadoo ese que llega sexuarl amatomaa. Caballo blanco caballo negroorl se calle ustée pupita jarl jarl benemeritaar a gramenawer. Te va a hasé pupitaa fistro tiene musho peligro se calle ustée. Amatomaa apetecan qué dise usteer benemeritaar. Condemor la caidita la caidita tiene musho peligro ese pedazo de.",
+  },
+  {
+    type: "Musica en el Buhoos Pub",
+    part: 3,
+    time: "23:00",
+    title: "Metal Jukebox",
     description:
       "loLorem fistrum te va a hasé pupitaa ese hombree amatomaa al ataquerl mamaar torpedo va usté muy cargadoo ese que llega sexuarl amatomaa. Caballo blanco caballo negroorl se calle ustée pupita jarl jarl benemeritaar a gramenawer. Te va a hasé pupitaa fistro tiene musho peligro se calle ustée. Amatomaa apetecan qué dise usteer benemeritaar. Condemor la caidita la caidita tiene musho peligro ese pedazo de.",
   },
